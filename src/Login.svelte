@@ -24,7 +24,7 @@
 
 <style>
     form {
-        --text-color: #afafaf;
+        --text-color: #6f023f;
     }
 
   .field {
@@ -56,7 +56,7 @@
   }
 
   .input:valid {
-    color: yellowgreen;
+    color: #ce7a5adb;
   }
 
   .input:invalid {
@@ -163,7 +163,7 @@
     padding: 10px 30px;
     font-weight: bold;
     border: 2px solid greenyellow;
-    color: greenyellow;
+    color: ce4a0c;
     border-radius: 100px;
     background: transparent;
     transition: all 1000ms;
@@ -186,6 +186,7 @@
 </style>
 
 <main>
+
   <form>
 
     <div class="field">
@@ -229,7 +230,7 @@
 
     <!-- <div class="strength-text">{strengthText[strength]}</div> -->
 
-    <button disabled={strength < 4}>Sign Up</button>
+    <button disabled={strength < 4}>Sign up</button>
 
   </form>
 

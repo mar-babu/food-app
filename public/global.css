@@ -7,7 +7,10 @@ html, body {
 
 body {
 	color: white;
-	background: #7d7402fc;
+	background: url("./ant11.png") no-repeat 0px -30px;
+
+	background-size: cover;
+	transition: opacity 200ms linear;
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
